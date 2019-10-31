@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{Component} from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// 等同于 ： import React from 'react'
+// const COmponent = React.Component
+
+class App extends Component {
+    render(){
+        return(
+    
+        <ul className="my-list">
+            <li>{false?'Threen':'鹿文'}</li>
+            <li>hello</li>
+            
+        </ul>
+        
+        )
+    }
 }
-
-export default App;
+export default App

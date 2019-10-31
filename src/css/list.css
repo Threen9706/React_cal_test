@@ -1,0 +1,121 @@
+.timeTable {
+    display: inline-block;
+}
+
+
+.time_table {
+    display: inline-block;
+}
+
+select {
+    background: none;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+}
+
+#start {
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+#end {
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+#search {
+    height: 30px;
+    border-radius: 5px;
+    width: 65px;
+    background-color: #309eee;
+    color: #fff;
+    margin-right: 10px;
+
+
+}
+
+#sync {
+    height: 30px;
+    border-radius: 5px;
+    width: 65px;
+    background-color: #309eee;
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+.date_sel {
+    font-size: 12px;
+}
+
+.table_head {
+    height: 35px;
+    background-color: #EEE;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+}
+
+.table_head span {
+    display: inline-block;
+    width: 75px;
+    font-size: 12px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+
+}
+
+.table_container {
+    width: 1300px;
+}
+
+.select_box {
+    margin-bottom: 5px;
+}
+
+.table_body span {
+    display: inline-block;
+    width: 75px;
+    font-size: 12px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #309eee;
+    cursor: pointer;
+
+}
+
+.page_a {
+    color: #CCC;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.pagination .active_a {
+    color: #309eee;
+}
+
+.rightConer {
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 8px;
+}

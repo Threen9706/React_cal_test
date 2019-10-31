@@ -1,0 +1,33 @@
+#tab_nav {
+    width: 1300px;
+    height: 35px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.tab_bar {
+    float: left;
+    font-size: 14px;
+    color: rgba(0,0,0,0.7);
+    padding: 0 15px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.active_tab {
+    color: #309eee;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius:5px 5px 0 0;
+}
+.tabs  .table_container{
+    margin: 0 auto;
+}
+.tabs {
+    /* display: block; */
+    margin-top: 15px;
+}
+
+.hide_tab {
+    display: none;
+}
